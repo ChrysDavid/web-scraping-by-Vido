@@ -22,9 +22,35 @@ Avant d'exécuter ce projet, assurez-vous d'avoir installé les éléments suiva
 - [Python 3.11](https://www.python.org/downloads/)
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
+## Structure du Projet
+
+    ```bash
+    web-scraping-by-Vido/
+    │
+    ├── main.py               # Script principal pour exécuter le téléchargement
+    ├── youtube_downloader.py # Module contenant les fonctions de téléchargement
+    ├── requirements.txt      # Fichier listant les dépendances Python
+    ├── README.md             # Documentation du projet
+    └── venv/                 # (Facultatif) Environnement virtuel Python
+    ```
+
+
 ## Installation
 
 1. Clonez le dépôt :
    ```bash
    git clone https://github.com/ChrysDavid/web-scraping-by-Vido.git
    cd web-scraping-by-Vido
+   ```
+
+2. Activez l'environnement virtuel :
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate  # Sur Windows
+    source venv/bin/activate  # Sur macOS/Linux
+    ```
+
+3. Exécutez le script :
+    ```bash
+    python main.py
+    ```
