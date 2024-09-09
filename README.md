@@ -28,7 +28,6 @@ Avant d'exécuter ce projet, assurez-vous d'avoir installé les éléments suiva
     │
     ├── main.py               # Script principal pour exécuter le téléchargement
     ├── youtube_downloader.py # Module contenant les fonctions de téléchargement
-    ├── requirements.txt      # Fichier listant les dépendances Python
     ├── README.md             # Documentation du projet
     └── venv/                 # (Facultatif) Environnement virtuel Python
 
@@ -51,3 +50,4 @@ Avant d'exécuter ce projet, assurez-vous d'avoir installé les éléments suiva
 3. Exécutez le script :
     ```bash
     python main.py
+
