@@ -24,7 +24,7 @@ Avant d'exécuter ce projet, assurez-vous d'avoir installé les éléments suiva
 
 ## Structure du Projet
 
-    ```bash
+    ```
     web-scraping-by-Vido/
     │
     ├── main.py               # Script principal pour exécuter le téléchargement
