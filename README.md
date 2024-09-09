@@ -24,7 +24,6 @@ Avant d'exécuter ce projet, assurez-vous d'avoir installé les éléments suiva
 
 ## Structure du Projet
 
-    ```
     web-scraping-by-Vido/
     │
     ├── main.py               # Script principal pour exécuter le téléchargement
@@ -32,7 +31,6 @@ Avant d'exécuter ce projet, assurez-vous d'avoir installé les éléments suiva
     ├── requirements.txt      # Fichier listant les dépendances Python
     ├── README.md             # Documentation du projet
     └── venv/                 # (Facultatif) Environnement virtuel Python
-    ```
 
 
 ## Installation
@@ -41,16 +39,15 @@ Avant d'exécuter ce projet, assurez-vous d'avoir installé les éléments suiva
    ```bash
    git clone https://github.com/ChrysDavid/web-scraping-by-Vido.git
    cd web-scraping-by-Vido
-   ```
+
 
 2. Activez l'environnement virtuel :
     ```bash
     python -m venv venv
     .\venv\Scripts\activate  # Sur Windows
     source venv/bin/activate  # Sur macOS/Linux
-    ```
+
 
 3. Exécutez le script :
     ```bash
     python main.py
-    ```
